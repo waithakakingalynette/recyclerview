@@ -9,9 +9,14 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-private var Any.text: String
-    get() {}
-    set() {}
+//private var Any.text: String
+//    get() {
+//        TODO("Not yet implemented")
+//
+//    }
+//    set(list) {
+//        TODO("Not yet implemented")
+//    }
 private val View.tvFibonacciNumber: Any
     get() {
         TODO("Not yet implemented")
@@ -59,9 +64,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            fun bind(fibonacciNumber: Int) {
-                itemView.tvFibonacciNumber.text = fibonacciNumber.toString()
-            }
+//            fun bind(fibonacciNumber: Int) {
+//                itemView.tvFibonacciNumber. text= fibonacciNumber.toString()
+//            }
         }
     }
 }
